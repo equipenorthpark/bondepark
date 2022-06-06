@@ -19,7 +19,8 @@ public class Player : MonoBehaviour
     }
 
     void Move()
-    {
+    { 
+        //O Input serve para detectar teclas e definir valores para elas
         Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), 0f, 0f);
         transform.position += movement * Time.deltaTime * Speed;
     }

@@ -1,5 +1,6 @@
 sceneSetups:
-- path: Assets/Scenes/SampleScene.unity
+- path: C:/Users/suporte/Documents/Nova pasta/My project (1)/Projeto/Assets/Scenes/Fase
+    1.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
