@@ -11,9 +11,9 @@ public class Inventory
         itemList = new List<Item>();
 
         AddItem(new Item { itemType = Item.ItemType.ChaveDeFenda, amount = 1});
-        AddItem(new Item { itemType = Item.ItemType.ColherDePedreiro, amount = 1});
-        AddItem(new Item { itemType = Item.ItemType.CortadorDeGrama, amount = 1});
-        AddItem(new Item { itemType = Item.ItemType.Enxada, amount = 1});
+        AddItem(new Item { itemType = Item.ItemType.ChaveDeFenda, amount = 1});
+        AddItem(new Item { itemType = Item.ItemType.ChaveDeFenda, amount = 1});
+        AddItem(new Item { itemType = Item.ItemType.ChaveDeFenda, amount = 1});
         
     }
 

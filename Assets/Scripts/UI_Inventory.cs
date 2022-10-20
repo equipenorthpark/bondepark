@@ -33,7 +33,7 @@ public class UI_Inventory : MonoBehaviour
             x++;
             if (x > 4)
             {
-                x = 4;
+                x = 0;
                 y++;
             }
         }
