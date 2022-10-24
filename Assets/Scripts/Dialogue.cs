@@ -14,6 +14,7 @@ public class Dialogue : MonoBehaviour
     public float radious;
 
     private DialogueControl dc;
+    bool onRadious;
 
     private void Star()
     {
@@ -26,6 +27,14 @@ public class Dialogue : MonoBehaviour
         Interact();
     }
 
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Space) && onRadious)
+        {
+
+        }
+    }
+
     // Vai ser a interação do NPC com o player
     public void Interact()
     {
@@ -33,7 +42,11 @@ public class Dialogue : MonoBehaviour
 
         if(hit != null)
         {
-            dc.Speech(profile, speechTxt, actorName);
+            onRadious = true;
+        }
+        else
+        {
+            onRadious = false;
         }
     }
 
