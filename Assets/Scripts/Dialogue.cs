@@ -31,7 +31,7 @@ public class Dialogue : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Space) && onRadious)
         {
-
+            dc.Speech(profile, speechTxt, actorName);
         }
     }
 
