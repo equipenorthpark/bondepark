@@ -16,7 +16,7 @@ public class Dialogue : MonoBehaviour
     private DialogueControl dc;
     bool onRadious;
 
-    private void Star()
+    private void Start()
     {
         // Quando vc inicializa o jogo o FindObjectOfType vai procurar na cena algum objeto que tenho o DialogueControl anexado
         dc = FindObjectOfType<DialogueControl>();
