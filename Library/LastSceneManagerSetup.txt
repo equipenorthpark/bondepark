@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: C:/Users/rafael.messias/Documents/bonde/bondepark/Assets/Scenes/SampleScene.unity
-=======
 - path: Assets/Scenes/SampleScene.unity
->>>>>>> 63703310eb8097ba5ed5c62c8a1d14d4965a61e4
   isLoaded: 1
   isActive: 1
   isSubScene: 0
