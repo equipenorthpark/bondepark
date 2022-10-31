@@ -10,7 +10,7 @@ public class MenuPrincipalManager : MonoBehaviour
 
     public void Jogar()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Mapa");
     }
 
     public void SairJogo()

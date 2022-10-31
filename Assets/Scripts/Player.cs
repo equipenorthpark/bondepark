@@ -7,6 +7,12 @@ public class Player : MonoBehaviour
     public float Speed;
 
     private Animator anim; 
+    
+
+    private void Awake()
+    {
+       
+    }
 
     // Start is called before the first frame update
     void Start()
