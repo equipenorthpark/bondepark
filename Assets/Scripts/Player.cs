@@ -8,15 +8,15 @@ public class Player : MonoBehaviour
 
     private Animator anim; 
     
-    [SerializeField] private UI_Inventory uiInventory;
+    //[SerializeField] private UI_Inventory uiInventory;
 
-    private Inventory inventory;
+    //private Inventory inventory;
 
-    private void Awake()
-    {
-        inventory = new Inventory();
-        uiInventory.SetInventory(inventory);
-    }
+    //private void Awake()
+    //{
+        //inventory = new Inventory();
+        //uiInventory.SetInventory(inventory);
+    //}
 
     // Start is called before the first frame update
     void Start()
