@@ -18,6 +18,7 @@ public class RecolherLixo : MonoBehaviour
         {
             if(Input.GetMouseButtonDown (0))
             {
+                
                 Destroy(gameObject, 0.3f);
             }
         }
