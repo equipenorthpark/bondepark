@@ -267,7 +267,7 @@ GameObject:
   - component: {fileID: 119081209}
   - component: {fileID: 119081208}
   m_Layer: 5
-  m_Name: LagoButton
+  m_Name: CampinhoButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -335,7 +335,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 119081209}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 380246437}
+        m_MethodName: Campinho
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &119081209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -486,7 +497,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nomeDoLugarDoJogoI: SampleScene
-  nomeDoLugarDoJogoII: "Pra\xE7a"
+  nomeDoLugarDoJogoII: Parque
 --- !u!4 &380246438
 Transform:
   m_ObjectHideFlags: 0
@@ -616,7 +627,7 @@ GameObject:
   - component: {fileID: 758735870}
   - component: {fileID: 758735869}
   m_Layer: 5
-  m_Name: "Pra\xE7aButton"
+  m_Name: ParqueButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -686,7 +697,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 380246437}
-        m_MethodName: "Pra\xE7a"
+        m_MethodName: Parque
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

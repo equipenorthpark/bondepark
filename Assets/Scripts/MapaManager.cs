@@ -13,13 +13,13 @@ public class MapaManager : MonoBehaviour
         SceneManager.LoadScene("SampleScene");
     }
 
-    public void Praça()
+    public void Parque()
     {
-        SceneManager.LoadScene("Praça");
+        SceneManager.LoadScene("Parque");
     }
 
-    public void Lago()
+    public void Campinho()
     {
-
+        SceneManager.LoadScene("Campinho");
     }
 }
