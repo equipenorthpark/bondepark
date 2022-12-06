@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class RecolherLixo : MonoBehaviour
 {
+    public static RecolherLixo acesso;
+
+    //private Animator anim;
+
     bool mouseDentroDoObjeto;
     // Start is called before the first frame update
     void Start()
@@ -18,7 +22,8 @@ public class RecolherLixo : MonoBehaviour
         {
             if(Input.GetMouseButtonDown (0))
             {
-                
+                //anim = GetComponent<Animator>();
+                //anim.SetBool("work", true);
                 Destroy(gameObject, 0.3f);
             }
         }
