@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    private float initialSpeed;
+
+    public static Player acesso;
+
     public float Speed;
 
     private Animator anim; 
@@ -21,6 +25,7 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        acesso = this;
         anim = GetComponent<Animator>();
     }
 
@@ -28,6 +33,7 @@ public class Player : MonoBehaviour
     void Update()
     {
         Move();
+        
     }
 
     // Cria método de movimento
@@ -60,7 +66,19 @@ public class Player : MonoBehaviour
             anim.SetBool("walk", false);
         }
 
+        if(RecolherLixo.acesso.mouseDentroDoObjeto)
+        {
+            anim.SetBool("work", true);
+
+            //private IEnumerator Esperar();
+            //{
+                //yield return new WaitForSeconds(2);
+                //anim.SetBool("work", false);
+        
+
+        }
 
 
     }
+
 }
